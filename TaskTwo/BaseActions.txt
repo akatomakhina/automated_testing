@@ -1,0 +1,36 @@
+  274  cd authomated_testing/automated_testing/
+  275  cd .?
+  276  git clone https://github.com/akatomakhina/git_test
+  277  cd /git_test
+  278  cd git_test
+  279  git add test.txt
+  280  echo Text example> test.txt
+  281  vi test.txt
+  282  git add test.txt
+  283  git commit -m "Nastya added"
+  284  git push origin master
+  285  vi test.txt
+  286  git commit -m "Nastya deleted and new record added"
+  287  git add test.txt
+  288  git commit -m "Nastya deleted and new record added"
+  289  git status
+  290  git push origin master
+  291  vi test.txt
+  292  git add test.txt
+  293  git status
+  294  git commit -m "New record added"
+  295  git push origin master
+  296  git branch new_feature
+  297  git chekout new_feature
+  298  git checkout new_feature
+  299  echo Text example> testTwo.txt
+  300  vi testTwo.txt
+  301  git add testTwo.txt
+  302  git status
+  303  git commit -m "new branch and first commit added"
+  304  git push
+  305  git push origin new_feature
+  306  git checkout master
+  307  git merge new_feature
+  308  cd .?
+  309  history > BaseActions.txt

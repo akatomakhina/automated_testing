@@ -17,32 +17,12 @@ public class StudentReader {
         Student student = new Student();
         String familyName;
         String name;
-        /*Subject subject;*/
-        /*String tmp;*/
-
-        /*List<Integer> integerList = new ArrayList<Integer>();*/
 
         System.out.print("Enter a familyName: ");
         familyName = scanner.next();
 
         System.out.print("Enter a name: ");
         name = scanner.next();
-
-        /*System.out.print("Enter a subject: ");
-        tmp = scanner.next();
-        subject = Subject.valueOf(tmp.toUpperCase());
-
-        System.out.print("Enter amount marks: ");
-        int n = scanner.nextInt();
-        System.out.print("Enter a marks: ");
-        for (int i = 0; i < n; i++) {
-            integerList = Student.addMarks(scanner.nextInt());
-        }
-
-        System.out.print(name + " " + familyName + " marks and subject is: ");
-        System.out.print(subject + " ");
-        student.addMark(subject, (ArrayList<Integer>) integerList);
-        System.out.println(student.getAverageMark());*/
 
         return student;
     }

@@ -57,8 +57,8 @@ public class Main {
             System.out.println(student.getAverageMark());
             group.addStudent(student);
         }
-        System.out.println(group.getAverageMark(subject));
+        System.out.println("Group marks" + group.getAverageMark(subject));
         faculty.addGroup(group);
-        System.out.println(group.getAverageMark(subject));
+        System.out.println("Faculty marks" + group.getAverageMark(subject));
     }
 }

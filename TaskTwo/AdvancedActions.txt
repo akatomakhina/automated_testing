@@ -1,0 +1,170 @@
+  276  git clone https://github.com/akatomakhina/git_test
+  278  cd git_test
+  279  git add test.txt
+  280  echo Text example> test.txt
+  281  vi test.txt
+  282  git add test.txt
+  283  git commit -m "Nastya added"
+  284  git push origin master
+  285  vi test.txt
+  286  git commit -m "Nastya deleted and new record added"
+  287  git add test.txt
+  288  git commit -m "Nastya deleted and new record added"
+  289  git status
+  290  git push origin master
+  291  vi test.txt
+  292  git add test.txt
+  293  git status
+  294  git commit -m "New record added"
+  295  git push origin master
+  296  git branch new_feature
+  297  git chekout new_feature
+  298  git checkout new_feature
+  299  echo Text example> testTwo.txt
+  300  vi testTwo.txt
+  301  git add testTwo.txt
+  302  git status
+  303  git commit -m "new branch and first commit added"
+  304  git push
+  305  git push origin new_feature
+  306  git checkout master
+  307  git merge new_feature
+  308  cd .?
+  309  history > BaseActions.txt
+  310  cd automated_testing
+  311  git add TaskTwo
+  312  git status
+  313  git commit -a
+  314  git push
+  315  git commit -a
+  316  git commit -a "TaskTwo added"
+  317  git commit -a
+  318  git commit -m "TaskTwo added"
+  319  git push
+  320  cd .?
+  321  cd git_test/
+  322  vi test.txt
+  323  checkout new_feature
+  324  git checkout new_feature
+  325  vi test.txt
+  326  git checkout master
+  327  git add test.txt
+  328  git status
+  329  git commit -m "new commit for advanced actions"
+  330  git push
+  331  git checkout new_feature
+  332  vi test.txt
+  333  git add test.txt
+  334  git commit -m "new commit for advanced actions"
+  335  vi test.txt
+  336  git add test.txt
+  337  git commit -m "new commit for advanced actions"
+  338  git push
+  339  git push origin new_feature
+  340  git rebase master
+  341  rebase --all
+  342  gitk --all
+  343  git rebase --continue
+  344  gitk
+  345  gitk --all
+  346  git rebase --continue
+  347  git rebase --continue
+  348  git add text.txt
+  349  git checkout master
+  350  git merge master
+  351  git add text.txt
+  352  git add test.txt
+  353  git commit -m "Merged master fixed conflict"
+  354  git push
+  355  git push origin new_feature
+  356  git rebase --continue
+  357  git add test.txt
+  358  git rebase --continue
+  359  git add test.txt
+  360  git status
+  361  git rebase -continue
+  362  git rebase --continue
+  363  git rebase master
+  364  It seems that there is already a rebase-apply directory, and
+  365  I wonder if you are in the middle of another rebase.  If that is the
+  366  case, please try
+  367          git rebase (--continue | --abort | --skip)
+  368  If that is not the case, please
+  369          rm -fr "D:/authomated_testing/git_test/.git/rebase-apply"
+  370  and run me again.  I am stopping in case you still have something
+  371  valuable there.
+  372  git rebase --continue
+  373  git checkout new_feature
+  374  git rebase master
+  375  git rebase --continue
+  376  cd /d/authomated_testing/
+  377  cd git_test/
+  378  rebase --continue
+  379  git rebase --continue
+  380  git add test.txt
+  381  git rebase continue
+  382   rm -fr "D:/authomated_testing/git_test/.git/rebase-apply"
+  383   rm -fr "D:/authomated_testing/git_test/.git/rebase-apply"
+  384  git checkout new_feature
+  385  git rebase
+  386  git rebase master
+  387  git commit im "commit"
+  388  git commit -m "commit"
+  389  git rebase master
+  390  gitk
+  391  git log
+  392  git rebase -i HEAD~2
+  393  git log
+  394  git rebase --continue
+  395  git checkout new-feature
+  396  git checkout new_feature
+  397  git log
+  398  git rebase merge
+  399  git rebase master
+  400  git log
+  401  git rebase -i HEAD~2
+  402  git log
+  403  git rebase --continue
+  404  git rebase --abort
+  405  git merge master
+  406  git merge master
+  407  git add test.txt
+  408  git commit -m "commit"
+  409  git push
+  410  git push origin new_feature
+  411  git merge master
+  412  git log
+  413  git rebase master
+  414  git log
+  415  git rebase --continue
+  416  git add .
+  417  git rebase --continue
+  418  cd /d/authomated_testing/
+  419  cd /git-test
+  420  cd git-test
+  421  cd /git-test
+  422  cd automated_testing/
+  423  git checkout new_feature
+  424  cd -
+  425  cd git-test
+  426  cd /git-test
+  427  cd /git_test
+  428  cd automated_testing/
+  429  git checkout new_feature
+  430  git pull
+  431  -
+  432  cd -
+  433  cd automated_testing/
+  434  git checkout new-feature
+  435  cd -
+  436  cd git_test
+  437  git rebase
+  438  git rebase --continue
+  439  git log
+  440  git rebase -i HEAD~2
+  441  git rebase all
+  442  git log
+  443  git gui
+  444  git rebase --continue 
+  445  gitk
+  446  history > 111.txt
